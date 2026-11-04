@@ -1,0 +1,718 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #111;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ================= NAVBAR 1 ================= */
+
+.site-header {
+    width: 100%;
+    background: #fff;
+}
+
+.top-navbar {
+    width: 92%;
+    min-height: 90px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.logo img {
+    width: 175px;
+    display: block;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.contact-info a {
+    color: #777;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.contact-info i {
+    margin-right: 7px;
+    font-size: 15px;
+}
+
+.top-actions {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.top-actions a {
+    white-space: nowrap;
+}
+
+.globe-icon,
+.cart-icon {
+    color: #111;
+    font-size: 18px;
+}
+
+.language-btn {
+    color: #777;
+    border: 1px solid #ddd;
+    padding: 9px 14px;
+    border-radius: 25px;
+    font-size: 12px;
+}
+
+.language-btn i {
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.sponsor-btn {
+    background: #07539d;
+    color: white;
+    padding: 11px 18px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.sponsor-btn i {
+    margin-right: 9px;
+}
+
+.donate-btn {
+    background: #60b947;
+    color: white;
+    padding: 11px 18px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.donate-btn i {
+    margin-left: 12px;
+}
+
+/* ================= NAVBAR 2 ================= */
+
+.second-navbar {
+    min-height: 60px;
+    background: white;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 0;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 37px;
+}
+
+.nav-links a {
+    color: #777;
+    font-size: 13px;
+    font-weight: 400;
+    white-space: nowrap;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #60b947;
+}
+
+.nav-links i {
+    font-size: 9px;
+    margin-left: 3px;
+}
+
+.navbar-toggler {
+    border: 1px solid #ddd;
+    color: #333;
+}
+
+/* ================= HERO SECTION ================= */
+
+.hero-section {
+    background: #f7fbf6;
+    padding: 40px 2.7% 80px;
+    min-height: 540px;
+}
+
+.hero-content {
+    padding-right: 35px;
+}
+
+.hero-label {
+    display: inline-block;
+    background: #e9f5e6;
+    color: #60b947;
+    border-radius: 30px;
+    padding: 9px 17px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+
+.hero-label i {
+    margin-right: 8px;
+    color: #111;
+}
+
+.hero-content h1 {
+    font-size: clamp(42px, 5.1vw, 70px);
+    line-height: 1.12;
+    font-weight: 900;
+    letter-spacing: -3px;
+    margin-bottom: 20px;
+}
+
+.hero-content h1 span {
+    color: #60b947;
+}
+
+.hero-content h3 {
+    font-size: 23px;
+    font-weight: 700;
+    margin: 20px 0 12px;
+}
+
+.hero-content p {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.8;
+    max-width: 570px;
+}
+
+.explore-btn {
+    display: inline-block;
+    color: #111;
+    border: 1px solid #222;
+    padding: 13px 23px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.explore-btn i {
+    margin-left: 15px;
+}
+
+.hero-image-area {
+    position: relative;
+    padding: 0 10px;
+}
+
+.hero-image {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 38px;
+    border: 4px solid #e9e9e9;
+}
+
+.served-box {
+    position: absolute;
+    left: 8%;
+    bottom: -35px;
+    width: 82%;
+    min-height: 120px;
+    background: rgba(255, 255, 255, 0.94);
+    border-radius: 25px;
+    padding: 20px 25px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+.served-box h2 {
+    color: #60b947;
+    font-size: 36px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.served-box h6 {
+    font-weight: 700;
+    margin-top: 3px;
+}
+
+.served-icon {
+    position: absolute;
+    right: 25px;
+    top: 35px;
+    width: 62px;
+    height: 62px;
+    background: #60b947;
+    color: white;
+    border-radius: 16px;
+    display: grid;
+    place-items: center;
+    font-size: 24px;
+}
+
+/* ================= DONATION BAR ================= */
+
+.donation-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: #08a9ed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60px;
+    border-radius: 35px 35px 0 0;
+    padding: 0;
+}
+
+.donation-item {
+    width: 33.33%;
+    text-align: center;
+    border-right: 1px solid rgba(255,255,255,0.3);
+}
+
+.donation-item:last-child {
+    border: none;
+}
+
+.donation-item a {
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* ================= QUICK DONATE ================= */
+
+.quick-donate {
+    background: #f0f7ed;
+    margin-top: 45px;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.quick-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.quick-box h5 {
+    font-weight: 700;
+    margin: 0;
+}
+
+.quick-box input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.quick-box button {
+    border: none;
+    background: #60b947;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 5px;
+}
+
+.quick-categories {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.quick-categories a {
+    background: white;
+    color: #333;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+/* ================= COMMON SECTIONS ================= */
+
+.section-padding {
+    padding-top: 65px;
+    padding-bottom: 35px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 35px;
+}
+
+/* ================= APPEAL CARDS ================= */
+
+.appeal-card {
+    height: 100%;
+    background: #f5f8f3;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.appeal-card img {
+    width: 100%;
+    height: 155px;
+    object-fit: cover;
+}
+
+.appeal-card h5 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 17px 8px;
+}
+
+.appeal-card a,
+.cause-content a {
+    display: inline-block;
+    background: #60b947;
+    color: white;
+    padding: 9px 20px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+/* ================= CAUSE CARDS ================= */
+
+.cause-card,
+.news-card {
+    height: 100%;
+    overflow: hidden;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+}
+
+.cause-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.cause-content {
+    padding: 20px;
+}
+
+.cause-content h4 {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.cause-content p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.7;
+    min-height: 48px;
+}
+
+/* ================= IMPACT ================= */
+
+.impact-section {
+    background: #07539d;
+    padding: 65px 0;
+    color: white;
+    margin-top: 45px;
+}
+
+.impact-section > .container > h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.impact-card i {
+    width: 75px;
+    height: 75px;
+    display: grid;
+    place-items: center;
+    background: white;
+    color: #60b947;
+    border-radius: 50%;
+    margin: 0 auto 18px;
+    font-size: 27px;
+}
+
+.impact-card h2 {
+    font-size: 27px;
+    font-weight: 800;
+}
+
+.impact-card p {
+    font-size: 15px;
+}
+
+/* ================= INITIATIVES ================= */
+
+.initiative-card {
+    text-align: center;
+    background: #f5f8f3;
+    padding: 12px;
+    border-radius: 12px;
+    height: 100%;
+}
+
+.initiative-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.initiative-card h5 {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 15px 0 5px;
+}
+
+/* ================= TESTIMONIAL ================= */
+
+.testimonial-section {
+    background: #f5f8f3;
+    padding: 65px 0;
+    margin-top: 50px;
+}
+
+.testimonial-section h2 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.testimonial-intro {
+    color: #777;
+    margin: 12px 0 30px;
+}
+
+.testimonial-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    height: 100%;
+}
+
+.testimonial-card img {
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 18px;
+}
+
+.testimonial-card h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.testimonial-card p {
+    color: #666;
+    line-height: 1.7;
+    margin-top: 12px;
+}
+
+/* ================= NEWS ================= */
+
+.news-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.news-content {
+    padding: 20px;
+}
+
+.news-content small {
+    color: #60b947;
+}
+
+.news-content h5 {
+    font-weight: 700;
+    margin: 12px 0;
+}
+
+.news-content a {
+    color: #60b947;
+    font-weight: 600;
+}
+
+/* ================= FOOTER ================= */
+
+.footer {
+    background: #092c4c;
+    color: white;
+    padding: 60px 0 20px;
+    margin-top: 70px;
+}
+
+.footer-logo {
+    width: 190px;
+    background: white;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    color: #ddd;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.footer h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer .col-md-4 > a {
+    display: block;
+    color: #ddd;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+.social-links {
+    display: flex;
+    gap: 12px;
+}
+
+.social-links a {
+    width: 38px;
+    height: 38px;
+    background: #60b947;
+    color: white;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+}
+
+.copyright {
+    text-align: center;
+    margin: 20px 0 0;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 1200px) {
+    .top-navbar {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 15px 0;
+    }
+
+    .contact-info {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .top-actions {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-links {
+        gap: 20px;
+        flex-wrap: wrap;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .top-navbar {
+        width: 95%;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .top-actions {
+        gap: 8px;
+    }
+
+    .sponsor-btn,
+    .donate-btn {
+        padding: 9px 12px;
+        font-size: 12px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 17px;
+    }
+
+    .hero-section {
+        padding: 35px 15px 65px;
+    }
+
+    .hero-content {
+        padding: 0 10px 35px;
+    }
+
+    .hero-content h1 {
+        font-size: 43px;
+        letter-spacing: -2px;
+    }
+
+    .hero-image {
+        height: 300px;
+        border-radius: 22px;
+    }
+
+    .served-box {
+        bottom: -35px;
+        min-height: 100px;
+    }
+
+    .served-box h2 {
+        font-size: 27px;
+    }
+
+    .quick-box {
+        flex-wrap: wrap;
+    }
+
+    .quick-box input {
+        min-width: 100%;
+    }
+
+    .quick-categories {
+        flex-wrap: wrap;
+    }
+
+    .quick-categories a {
+        flex: 1 1 40%;
+        text-align: center;
+    }
+
+    .donation-item a {
+        font-size: 13px;
+    }
+}
