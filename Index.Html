@@ -4,555 +4,707 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Saylani Welfare International Trust</title>
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
-    <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
 
-<!-- ================= NAVBAR 1 ================= -->
+<!-- HEADER -->
+<header class="header">
 
-<header class="site-header">
+    <a href="#" class="logo">
+        <img src="https://saylaniwelfare.com/static/saylani_full_logo.png" alt="Saylani Logo">
+    </a>
 
-    <div class="top-navbar">
-
-        <a href="#" class="logo">
-            <img src="https://saylaniwelfare.com/static/saylani_full_logo.png" alt="Saylani Logo">
+    <div class="header-contact">
+        <a href="mailto:info@saylaniwelfare.com">
+            <i class="far fa-envelope"></i> info@saylaniwelfare.com
         </a>
 
-        <div class="contact-info">
-            <a href="mailto:info@saylaniwelfare.com">
-                <i class="far fa-envelope"></i>
-                info@saylaniwelfare.com
-            </a>
+        <a href="tel:03111729526">
+            <i class="fab fa-whatsapp"></i> 0311 1729526
+        </a>
 
-            <a href="tel:03111729526">
-                <i class="fab fa-whatsapp"></i>
-                0311 1729526
-            </a>
+        <a href="tel:+9221111729526">
+            <i class="fas fa-phone"></i> +92 21 111 729 526
+        </a>
 
-            <a href="tel:+9221111729526">
-                <i class="fas fa-phone"></i>
-                +92 21 111 729 526
-            </a>
-        </div>
+        <a href="#"><i class="fas fa-globe"></i></a>
 
-        <div class="top-actions">
+        <a href="#" class="language">ENGLISH <i class="fas fa-chevron-down"></i></a>
 
-            <a href="#" class="globe-icon">
-                <i class="fas fa-globe"></i>
-            </a>
+        <a href="#" class="cart"><i class="fas fa-shopping-cart"></i></a>
 
-            <a href="#" class="language-btn">
-                ENGLISH <i class="fas fa-chevron-down"></i>
-            </a>
+        <a href="#" class="sponsor">
+            <i class="far fa-user"></i> Be a Sponsor
+        </a>
 
-            <a href="#" class="cart-icon">
-                <i class="fas fa-shopping-cart"></i>
-            </a>
-
-            <a href="#" class="sponsor-btn">
-                <i class="far fa-user"></i>
-                Be a Sponsor
-            </a>
-
-            <a href="#" class="donate-btn">
-                Donate Now
-                <i class="fas fa-heart"></i>
-            </a>
-
-        </div>
+        <a href="#" class="donate-small">
+            Donate Now <i class="fas fa-heart"></i>
+        </a>
     </div>
-
-    <!-- ================= NAVBAR 2 ================= -->
-
-    <nav class="second-navbar navbar navbar-expand-lg">
-        <div class="container-fluid justify-content-center">
-
-            <button class="navbar-toggler" type="button"
-                data-bs-toggle="collapse" data-bs-target="#mainMenu">
-                <i class="fas fa-bars"></i>
-            </button>
-
-            <div class="collapse navbar-collapse justify-content-center" id="mainMenu">
-
-                <div class="nav-links">
-                    <a href="#">Home</a>
-                    <a href="#">About <i class="fas fa-chevron-down"></i></a>
-                    <a href="#">Services <i class="fas fa-chevron-down"></i></a>
-                    <a href="#">Media <i class="fas fa-chevron-down"></i></a>
-                    <a href="#">Contact Us</a>
-                    <a href="#">Bank Details</a>
-                    <a href="#">Donor Dashboard</a>
-                    <a href="#">Be a Sponsor</a>
-                </div>
-
-            </div>
-        </div>
-    </nav>
 
 </header>
 
 
-<!-- ================= HERO SECTION ================= -->
+<!-- NAVBAR -->
+<nav class="navbar">
 
-<section class="hero-section">
-    <div class="container-fluid">
-        <div class="row align-items-center">
+    <button class="menu-btn" id="menuBtn">
+        <i class="fas fa-bars"></i>
+    </button>
 
-            <div class="col-lg-6 hero-content">
+    <div class="nav-links" id="navLinks">
 
-                <div class="hero-label">
-                    <i class="fas fa-star"></i>
-                    Pakistan's Largest Welfare NGO
-                </div>
+        <a href="#">Home</a>
 
-                <h1>
-                    Welcome to<br>
-                    <span>Saylani Welfare</span><br>
-                    International<br>
-                    Trust
-                </h1>
+        <a href="#about">About <i class="fas fa-chevron-down"></i></a>
 
-                <h3>More Than Just A Charity</h3>
+        <a href="#initiatives">Services <i class="fas fa-chevron-down"></i></a>
 
-                <p>
-                    Saylani Welfare International Trust is one of Pakistan's
-                    largest welfare organizations, providing food, education,
-                    medical care and other services to people in need.
-                </p>
+        <a href="#media">Media <i class="fas fa-chevron-down"></i></a>
 
-                <a href="#" class="explore-btn">
-                    Explore More <i class="fas fa-arrow-right"></i>
-                </a>
+        <a href="#contact">Contact Us</a>
 
-            </div>
+        <a href="#footer">Bank Details</a>
 
-            <div class="col-lg-6 hero-image-area">
+        <a href="#footer">Donor Dashboard</a>
 
-                <img class="hero-image"
-                    src="https://saylaniwelfare.com/api/media/file/hero-carousel-img-1.png"
-                    alt="Saylani Welfare Children">
+        <a href="#" class="nav-sponsor">Be a Sponsor</a>
 
-                <div class="served-box">
-                    <h2>450,000+</h2>
-                    <h6>People Served Daily</h6>
-                    <div class="served-icon">
-                        <i class="fas fa-arrow-trend-up"></i>
-                    </div>
-                </div>
-
-            </div>
-        </div>
     </div>
+</nav>
+
+
+<!-- HERO SECTION -->
+<section class="hero" id="about">
+
+    <div class="hero-content">
+
+        <div class="hero-tag">
+            ✨ Pakistan's Largest Welfare NGO
+        </div>
+
+        <h1>
+            Welcome to
+            <br>
+            <span>Saylani Welfare</span>
+            <br>
+            International
+            <br>
+            Trust
+        </h1>
+
+        <h2>Serving Humanity Across The World</h2>
+
+        <p>
+            The largest NGO offering free daily meals to
+            underprivileged families in 63+ areas. Working with
+            local communities to support those in need across
+            Pakistan. Together, we're making a difference
+            every single day.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#donate" class="primary-btn">DONATE NOW</a>
+            <a href="#initiatives" class="secondary-btn">Learn More</a>
+        </div>
+
+    </div>
+
+
+    <div class="hero-image">
+
+        <img src="https://saylaniwelfare.com/api/media/file/hero-carousel-img-1.png"
+             alt="Saylani Welfare Children">
+
+        <div class="served-box">
+            <h2>450,000+</h2>
+            <h3>People Served Daily</h3>
+            <p>Across 1138+ areas in Pakistan</p>
+        </div>
+
+    </div>
+
 </section>
 
 
-<!-- ================= DONATION BAR ================= -->
+<!-- LIVE APPEALS -->
+<section class="appeals section" id="initiatives">
 
-<section class="donation-bar container-fluid">
-    <div class="donation-item">
-        <a href="#">Food Donation</a>
+    <div class="heading">
+
+        <a href="#" class="heading-tag">OUR INITIATIVES</a>
+
+        <h2>Live <span>Appeals</span></h2>
+
+        <p>
+            Making a difference in the lives of thousands every day through
+            <br>
+            comprehensive welfare programs
+        </p>
+
     </div>
-    <div class="donation-item">
-        <a href="#">Sadqa</a>
+
+
+    <div class="appeal-container">
+
+        <div class="appeal-card">
+            <img src="https://saylaniwelfare.com/api/media/file/welfare-thumb.png"
+                 alt="Welfare">
+
+            <div class="appeal-info">
+                <h3>Welfare</h3>
+                <p>Support families facing hardship.</p>
+                <a href="#donate">Donate Now →</a>
+            </div>
+        </div>
+
+
+        <div class="appeal-card">
+            <img src="https://saylaniwelfare.com/api/media/file/fitra-fidya-kaffara-thumb.png"
+                 alt="Fitra Fidya Kaffara">
+
+            <div class="appeal-info">
+                <h3>Fitra, Fidya and Kaffara</h3>
+                <p>Provide food and essential support.</p>
+                <a href="#donate">Donate Now →</a>
+            </div>
+        </div>
+
+
+        <div class="appeal-card">
+            <img src="https://saylaniwelfare.com/api/media/file/sadqa-animal-thumb.png"
+                 alt="Sadqa Animal">
+
+            <div class="appeal-info">
+                <h3>Sadqa / Aqiqah Animal</h3>
+                <p>Share blessings with people in need.</p>
+                <a href="#donate">Donate Now →</a>
+            </div>
+        </div>
+
+
+        <div class="appeal-card">
+            <img src="https://saylaniwelfare.com/api/media/file/medical%20thumb.png"
+                 alt="Medical Services">
+
+            <div class="appeal-info">
+                <h3>Medical</h3>
+                <p>Support healthcare and treatment.</p>
+                <a href="#donate">Donate Now →</a>
+            </div>
+        </div>
+
+
+        <div class="appeal-card">
+            <img src="https://saylaniwelfare.com/api/media/file/children%20hospital%20cover.png"
+                 alt="Child Education and Hospital">
+
+            <div class="appeal-info">
+                <h3>Child Education Campaign</h3>
+                <p>Help children get quality education.</p>
+                <a href="#donate">Donate Now →</a>
+            </div>
+        </div>
+
     </div>
-    <div class="donation-item">
-        <a href="#">Zakat</a>
-    </div>
+
 </section>
 
 
-<!-- ================= QUICK DONATE ================= -->
+<!-- QUICK DONATE -->
+<section class="quick-donate section" id="donate">
 
-<section class="quick-donate container">
-    <div class="quick-box">
-        <h5>Quick Donate</h5>
-
-        <input type="text" placeholder="Enter Amount">
-
-        <button>Donate Now</button>
+    <div class="heading">
+        <a href="#" class="heading-tag">MAKE A DIFFERENCE</a>
+        <h2>Quick <span>Donate</span></h2>
+        <p>Choose your cause and make an impact today.</p>
     </div>
 
-    <div class="quick-categories">
-        <a href="#">General</a>
-        <a href="#">Daily Food</a>
-        <a href="#">Medical</a>
-        <a href="#">Welfare</a>
-        <a href="#">Education</a>
+    <div class="donate-tabs">
+
+        <button class="tab active" data-cause="General">General</button>
+        <button class="tab" data-cause="Daily Food">Daily Food</button>
+        <button class="tab" data-cause="Medical">Medical</button>
+        <button class="tab" data-cause="Welfare">Welfare</button>
+        <button class="tab" data-cause="Education">Education</button>
+
     </div>
+
+    <div class="quick-cards">
+
+        <div class="quick-card">
+            <img src="https://saylaniwelfare.com/api/media/file/sadqa-animal-cover.png" alt="Sadqa">
+            <div>
+                <h3>Sadqa / Aqiqah Animal</h3>
+                <p>Fulfill your Sadqa or Aqiqah and help those in need.</p>
+                <a href="#donate-form">DONATE NOW</a>
+            </div>
+        </div>
+
+        <div class="quick-card">
+            <img src="https://saylaniwelfare.com/api/media/file/fitra-fidya-kaffara-thumb.png" alt="Ramzan">
+            <div>
+                <h3>Fitra, Fidya & Kaffara</h3>
+                <p>Help provide food and support to deserving families.</p>
+                <a href="#donate-form">DONATE NOW</a>
+            </div>
+        </div>
+
+        <div class="quick-card">
+            <img src="https://saylaniwelfare.com/api/media/file/it-park-cover.jpeg" alt="IT Park">
+            <div>
+                <h3>IT Education</h3>
+                <p>Transform Pakistan through technology education.</p>
+                <a href="#donate-form">DONATE NOW</a>
+            </div>
+        </div>
+
+        <div class="quick-card">
+            <img src="https://saylaniwelfare.com/api/media/file/flood-relief-cover.png" alt="Flood Relief">
+            <div>
+                <h3>Flood Relief Fund</h3>
+                <p>Help flood victims with emergency relief.</p>
+                <a href="#donate-form">DONATE NOW</a>
+            </div>
+        </div>
+
+        <div class="quick-card">
+            <img src="https://saylaniwelfare.com/api/media/file/children%20hospital%20cover.png" alt="Children Hospital">
+            <div>
+                <h3>Saylani Children Hospital</h3>
+                <p>Support free healthcare for children.</p>
+                <a href="#donate-form">DONATE NOW</a>
+            </div>
+        </div>
+
+        <div class="quick-card">
+            <img src="https://saylaniwelfare.com/api/media/file/sponsor-thallassemia-patient.png" alt="Thalassemia">
+            <div>
+                <h3>Thalassemia Patients</h3>
+                <p>Support patients with medical assistance.</p>
+                <a href="#donate-form">DONATE NOW</a>
+            </div>
+        </div>
+
+        <div class="quick-card">
+            <img src="https://saylaniwelfare.com/api/media/file/Food-cover.jpg" alt="Food">
+            <div>
+                <h3>Food Donation</h3>
+                <p>Sponsor free meals for people in need.</p>
+                <a href="#donate-form">DONATE NOW</a>
+            </div>
+        </div>
+
+    </div>
+
 </section>
 
 
-<!-- ================= LIVE APPEALS ================= -->
+<!-- IMPACT SECTION -->
+<section class="impact">
 
-<section class="container section-padding">
-    <h2 class="section-title">Live Appeals</h2>
+    <div class="impact-heading">
+        <h2>Our Impact In Numbers</h2>
+        <p>Real-time data showing our commitment to serving humanity</p>
+    </div>
 
-    <div class="row g-4">
+    <div class="impact-container">
 
-        <div class="col-md-6 col-lg">
-            <div class="appeal-card">
-                <img src="https://saylaniwelfare.com/api/media/file/welfare-thumb.png" alt="Welfare">
-                <h5>Welfare</h5>
-                <a href="#">Donate Now</a>
-            </div>
+        <div class="impact-box">
+            <i class="fas fa-users"></i>
+            <h2>1,500,000</h2>
+            <p>Lives served every year across Pakistan</p>
         </div>
 
-        <div class="col-md-6 col-lg">
-            <div class="appeal-card">
-                <img src="https://saylaniwelfare.com/api/media/file/fitra-fidya-kaffara-thumb.png" alt="Fitra">
-                <h5>Fitra, Fidya & Kaffara</h5>
-                <a href="#">Donate Now</a>
-            </div>
+        <div class="impact-box">
+            <i class="fas fa-utensils"></i>
+            <h2>250,000</h2>
+            <p>People Fed Daily</p>
         </div>
 
-        <div class="col-md-6 col-lg">
-            <div class="appeal-card">
-                <img src="https://saylaniwelfare.com/api/media/file/sadqa-animal-thumb.png" alt="Sadqa">
-                <h5>Sadqa Animal</h5>
-                <a href="#">Donate Now</a>
-            </div>
+        <div class="impact-box">
+            <i class="fas fa-house-user"></i>
+            <h2>12,000</h2>
+            <p>Family Adoptions every Month</p>
         </div>
 
-        <div class="col-md-6 col-lg">
-            <div class="appeal-card">
-                <img src="https://saylaniwelfare.com/api/media/file/medical%20thumb.png" alt="Medical">
-                <h5>Medical</h5>
-                <a href="#">Donate Now</a>
-            </div>
-        </div>
-
-        <div class="col-md-6 col-lg">
-            <div class="appeal-card">
-                <img src="https://saylaniwelfare.com/api/media/file/child-education.jpg" alt="Education">
-                <h5>Child Education</h5>
-                <a href="#">Donate Now</a>
-            </div>
+        <div class="impact-box">
+            <i class="fas fa-graduation-cap"></i>
+            <h2>400,000</h2>
+            <p>Students taught annually</p>
         </div>
 
     </div>
+
 </section>
 
 
-<!-- ================= WHAT WE ARE DOING ================= -->
+<!-- WHAT WE DO -->
+<section class="work section">
 
-<section class="container section-padding">
-    <h2 class="section-title">What We Are Doing</h2>
+    <div class="heading">
+        <a href="#" class="heading-tag">OUR INITIATIVES</a>
+        <h2>What We Are <span>Doing</span></h2>
+        <p>
+            Our organization has a long tradition of serving humanity
+            and empowering the underprivileged.
+        </p>
+    </div>
 
-    <div class="row g-4">
+    <div class="work-container">
 
-        <div class="col-md-6 col-lg-4">
-            <div class="cause-card">
-                <img src="https://saylaniwelfare.com/api/media/file/sadqa-animal-cover.png" alt="Sadqa Animal">
-                <div class="cause-content">
-                    <h4>Sadqa / Aqiqah Animal</h4>
-                    <p>Help families by supporting food and animal donations.</p>
-                    <a href="#">Donate Now</a>
-                </div>
-            </div>
+        <div class="work-card">
+            <img src="https://saylaniwelfare.com/api/media/file/dastarkhwan.png" alt="Dastarkhwan">
+            <h3>Dastarkhwan</h3>
+            <p>We Help <b>250,000</b></p>
         </div>
 
-        <div class="col-md-6 col-lg-4">
-            <div class="cause-card">
-                <img src="https://saylaniwelfare.com/api/media/file/fitra-fidya-kaffara-thumb.png" alt="Fitra">
-                <div class="cause-content">
-                    <h4>Fitra, Fidya & Kaffara</h4>
-                    <p>Support people who need your help and care.</p>
-                    <a href="#">Donate Now</a>
-                </div>
-            </div>
+        <div class="work-card">
+            <img src="https://saylaniwelfare.com/api/media/file/ro-plant.png" alt="Clean Water">
+            <h3>Clean Water</h3>
+            <p>We Help <b>35M</b></p>
         </div>
 
-        <div class="col-md-6 col-lg-4">
-            <div class="cause-card">
-                <img src="https://saylaniwelfare.com/api/media/file/it-park-cover.jpeg" alt="IT Education">
-                <div class="cause-content">
-                    <h4>IT Education</h4>
-                    <p>Help students learn modern technology skills.</p>
-                    <a href="#">Donate Now</a>
-                </div>
-            </div>
+        <div class="work-card">
+            <img src="https://saylaniwelfare.com/api/media/file/sbil.png" alt="SBIL">
+            <h3>SBIL</h3>
+            <p>We Help <b>4,500</b></p>
         </div>
 
-        <div class="col-md-6 col-lg-4">
-            <div class="cause-card">
-                <img src="https://saylaniwelfare.com/api/media/file/flood-relief-cover.png" alt="Flood Relief">
-                <div class="cause-content">
-                    <h4>Flood Relief Fund</h4>
-                    <p>Help families affected by floods and emergencies.</p>
-                    <a href="#">Donate Now</a>
-                </div>
-            </div>
+        <div class="work-card">
+            <img src="https://saylaniwelfare.com/api/media/file/old-age-home.png" alt="Old Age">
+            <h3>Old Age</h3>
+            <p>We Help <b>90</b></p>
         </div>
 
-        <div class="col-md-6 col-lg-4">
-            <div class="cause-card">
-                <img src="https://saylaniwelfare.com/api/media/file/children%20hospital%20cover.png" alt="Children Hospital">
-                <div class="cause-content">
-                    <h4>Saylani Children Hospital</h4>
-                    <p>Support healthcare services for children.</p>
-                    <a href="#">Donate Now</a>
-                </div>
-            </div>
+        <div class="work-card">
+            <img src="https://saylaniwelfare.com/api/media/file/orphanage.jpg" alt="Orphanage">
+            <h3>Orphanage</h3>
+            <p>We Help <b>300</b></p>
         </div>
 
-        <div class="col-md-6 col-lg-4">
-            <div class="cause-card">
-                <img src="https://saylaniwelfare.com/api/media/file/sponsor-thallassemia-patient.png" alt="Thalassemia">
-                <div class="cause-content">
-                    <h4>Thalassemia Patients</h4>
-                    <p>Help patients receive the care they need.</p>
-                    <a href="#">Donate Now</a>
-                </div>
-            </div>
+        <div class="work-card">
+            <img src="https://saylaniwelfare.com/api/media/file/vocational-training.png" alt="Vocational Training">
+            <h3>Vocational Training</h3>
+            <p>We Help <b>3,000</b></p>
+        </div>
+
+        <div class="work-card">
+            <img src="https://saylaniwelfare.com/api/media/file/SMIT.jpg" alt="SMIT">
+            <h3>SMIT</h3>
+            <p>We Help <b>200,000</b></p>
+        </div>
+
+        <div class="work-card">
+            <img src="https://saylaniwelfare.com/api/media/file/mother%20%26%20child.png" alt="Mother and Child">
+            <h3>Mother & Child</h3>
+            <p>We Help <b>11,900</b></p>
         </div>
 
     </div>
+
 </section>
 
 
-<!-- ================= IMPACT SECTION ================= -->
+<!-- TESTIMONIALS -->
+<section class="testimonials section">
 
-<section class="impact-section">
-    <div class="container">
-        <h2>Our Impact</h2>
-
-        <div class="row g-4 text-center">
-
-            <div class="col-6 col-lg-3">
-                <div class="impact-card">
-                    <i class="fas fa-utensils"></i>
-                    <h2>1,500,000</h2>
-                    <p>Food Served</p>
-                </div>
-            </div>
-
-            <div class="col-6 col-lg-3">
-                <div class="impact-card">
-                    <i class="fas fa-user-graduate"></i>
-                    <h2>250,000</h2>
-                    <p>Education</p>
-                </div>
-            </div>
-
-            <div class="col-6 col-lg-3">
-                <div class="impact-card">
-                    <i class="fas fa-stethoscope"></i>
-                    <h2>12,000</h2>
-                    <p>Medical</p>
-                </div>
-            </div>
-
-            <div class="col-6 col-lg-3">
-                <div class="impact-card">
-                    <i class="fas fa-hand-holding-heart"></i>
-                    <h2>400,000</h2>
-                    <p>Welfare</p>
-                </div>
-            </div>
-
-        </div>
+    <div class="heading">
+        <a href="#" class="heading-tag">OUR TESTIMONIALS</a>
+        <h2>What They <span>Say?</span></h2>
+        <p>Making a difference in the lives of thousands every day.</p>
     </div>
+
+    <div class="testimonial-box">
+
+        <div class="quote-icon">
+            <i class="fas fa-quote-left"></i>
+        </div>
+
+        <h3>Arshad Wali Muhammad</h3>
+        <p class="designation">Group Director, Gerry's Group</p>
+
+        <div class="stars">★★★★★</div>
+
+        <p>
+            Saylani Welfare Trust is a name that needs no introduction
+            today. The journey this team embarked upon was made possible
+            owing to their zeal, enthusiasm and commitment to society.
+            I wish Saylani's team all the success and blessings for the future.
+        </p>
+
+    </div>
+
 </section>
 
 
-<!-- ================= OUR INITIATIVES ================= -->
+<!-- BLOGS -->
+<section class="blogs section">
 
-<section class="container section-padding">
-    <h2 class="section-title">Our Initiatives</h2>
+    <div class="heading">
+        <a href="#" class="heading-tag">LATEST BLOGS</a>
+        <h2>Our <span>Blogs</span></h2>
+        <p>Stay updated with stories and news from our welfare initiatives.</p>
+    </div>
 
-    <div class="row g-4">
+    <div class="blog-container">
 
-        <div class="col-6 col-md-3">
-            <div class="initiative-card">
-                <img src="https://saylaniwelfare.com/api/media/file/dastarkhwan.png" alt="Dastarkhwan">
-                <h5>Saylani Dastarkhwan</h5>
+        <div class="blog-card">
+            <img src="https://saylaniwelfare.com/api/media/file/hero-carousel-img-1.png" alt="Children">
+            <div>
+                <small>29 October 2026</small>
+                <h3>Ramadan 2027: Donate Food and Blankets to Needy Families</h3>
+                <a href="#">Read More →</a>
             </div>
         </div>
 
-        <div class="col-6 col-md-3">
-            <div class="initiative-card">
-                <img src="https://saylaniwelfare.com/api/media/file/ro-plant.png" alt="RO Plant">
-                <h5>Clean Water</h5>
+        <div class="blog-card">
+            <img src="https://saylaniwelfare.com/api/media/file/SMIT.jpg" alt="Education">
+            <div>
+                <small>24 October 2026</small>
+                <h3>Out of School Children: How Your Education Donation Helps</h3>
+                <a href="#">Read More →</a>
             </div>
         </div>
 
-        <div class="col-6 col-md-3">
-            <div class="initiative-card">
-                <img src="https://saylaniwelfare.com/api/media/file/sbil.png" alt="SBIL">
-                <h5>SBIL</h5>
-            </div>
-        </div>
-
-        <div class="col-6 col-md-3">
-            <div class="initiative-card">
-                <img src="https://saylaniwelfare.com/api/media/file/old-age-home.png" alt="Old Age Home">
-                <h5>Old Age Home</h5>
-            </div>
-        </div>
-
-        <div class="col-6 col-md-3">
-            <div class="initiative-card">
-                <img src="https://saylaniwelfare.com/api/media/file/orphanage.jpg" alt="Orphanage">
-                <h5>Orphanage</h5>
-            </div>
-        </div>
-
-        <div class="col-6 col-md-3">
-            <div class="initiative-card">
-                <img src="https://saylaniwelfare.com/api/media/file/vocational-training.png" alt="Vocational Training">
-                <h5>Vocational Training</h5>
-            </div>
-        </div>
-
-        <div class="col-6 col-md-3">
-            <div class="initiative-card">
-                <img src="https://saylaniwelfare.com/api/media/file/SMIT.jpg" alt="SMIT">
-                <h5>Saylani Mass IT</h5>
-            </div>
-        </div>
-
-        <div class="col-6 col-md-3">
-            <div class="initiative-card">
-                <img src="https://saylaniwelfare.com/api/media/file/mother%20%26%20child.png" alt="Mother and Child">
-                <h5>Mother & Child</h5>
+        <div class="blog-card">
+            <img src="https://saylaniwelfare.com/api/media/file/sadqa-animal-thumb.png" alt="Sadqa">
+            <div>
+                <small>23 October 2026</small>
+                <h3>Sadqah: Start Your Early Ramadan Donation</h3>
+                <a href="#">Read More →</a>
             </div>
         </div>
 
     </div>
+
 </section>
 
 
-<!-- ================= TESTIMONIALS ================= -->
+<!-- MEDIA UPDATES -->
+<section class="media section" id="media">
 
-<section class="testimonial-section">
-    <div class="container text-center">
-        <h2>What People Say About Us</h2>
-        <p class="testimonial-intro">Our supporters share their thoughts about Saylani Welfare.</p>
-
-        <div class="row justify-content-center g-4">
-
-            <div class="col-md-5">
-                <div class="testimonial-card">
-                    <img src="https://saylaniwelfare.com/api/media/file/Arshad%20Wali%20Muhammad.webp" alt="Arshad Wali Muhammad">
-                    <h4>Arshad Wali Muhammad</h4>
-                    <p>Saylani Welfare is doing valuable work for communities and people in need.</p>
-                </div>
-            </div>
-
-            <div class="col-md-5">
-                <div class="testimonial-card">
-                    <img src="https://saylaniwelfare.com/api/media/file/asif-ismail.webp" alt="Asif Ismail">
-                    <h4>Asif Ismail</h4>
-                    <p>It is inspiring to see welfare and education initiatives helping people.</p>
-                </div>
-            </div>
-
-        </div>
+    <div class="heading">
+        <a href="#" class="heading-tag">LATEST UPDATE</a>
+        <h2>Media <span>Updates</span></h2>
+        <p>Making a difference in the lives of thousands every day.</p>
     </div>
+
+    <div class="media-container">
+
+        <div class="media-card">
+            <iframe src="https://www.youtube.com/embed/videoseries?list=PL"
+                    title="Saylani Media" loading="lazy"></iframe>
+            <h3>Saylani Welfare Media Updates</h3>
+        </div>
+
+        <div class="media-card">
+            <img src="https://saylaniwelfare.com/api/media/file/flood-relief-cover.png" alt="Flood Relief">
+            <h3>Flood Relief Report</h3>
+        </div>
+
+        <div class="media-card">
+            <img src="https://saylaniwelfare.com/api/media/file/it-park-cover.jpeg" alt="IT Park">
+            <h3>Saylani IT Park</h3>
+        </div>
+
+    </div>
+
 </section>
 
 
-<!-- ================= LATEST NEWS ================= -->
+<!-- LATEST NEWS -->
+<section class="news section">
 
-<section class="container section-padding">
-    <h2 class="section-title">Latest News</h2>
+    <div class="heading">
+        <a href="#" class="heading-tag">LATEST NEWS</a>
+        <h2>Latest <span>News</span></h2>
+        <p>Stay informed about our latest activities and events.</p>
+    </div>
 
-    <div class="row g-4">
+    <div class="news-container">
 
-        <div class="col-md-4">
-            <div class="news-card">
-                <img src="https://saylaniwelfare.com/api/media/file/Food-cover.jpg" alt="Food">
-                <div class="news-content">
-                    <small>Saylani Welfare</small>
-                    <h5>Serving Food to Those in Need</h5>
-                    <a href="#">Read More →</a>
-                </div>
-            </div>
+        <div class="news-card">
+            <i class="far fa-newspaper"></i>
+            <h3>Saylani Welfare Activities</h3>
+            <p>Updates about community welfare and relief work.</p>
         </div>
 
-        <div class="col-md-4">
-            <div class="news-card">
-                <img src="https://saylaniwelfare.com/api/media/file/it-park-cover.jpeg" alt="IT Park">
-                <div class="news-content">
-                    <small>Education</small>
-                    <h5>Building Skills Through IT Education</h5>
-                    <a href="#">Read More →</a>
-                </div>
-            </div>
+        <div class="news-card">
+            <i class="fas fa-hand-holding-heart"></i>
+            <h3>Serving Humanity</h3>
+            <p>Helping people through different welfare projects.</p>
         </div>
 
-        <div class="col-md-4">
-            <div class="news-card">
-                <img src="https://saylaniwelfare.com/api/media/file/flood-relief-cover.png" alt="Relief">
-                <div class="news-content">
-                    <small>Welfare</small>
-                    <h5>Helping Families in Difficult Times</h5>
-                    <a href="#">Read More →</a>
-                </div>
-            </div>
+        <div class="news-card">
+            <i class="fas fa-graduation-cap"></i>
+            <h3>Education Programs</h3>
+            <p>Providing learning opportunities to students.</p>
         </div>
 
     </div>
+
 </section>
 
 
-<!-- ================= FOOTER ================= -->
+<!-- DONATION FORMS -->
+<section class="donation-section section" id="donate-form">
 
-<footer class="footer">
-    <div class="container">
-        <div class="row g-4">
+    <div class="heading">
+        <h2>Make Your <span>Donation</span></h2>
+        <p>Your contribution can change someone's life.</p>
+    </div>
 
-            <div class="col-md-4">
-                <img src="https://saylaniwelfare.com/static/saylani_full_logo.png" alt="Saylani Logo" class="footer-logo">
-                <p>Saylani Welfare International Trust works to improve lives through food, education, healthcare and welfare services.</p>
+    <div class="donation-container">
 
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
+        <form class="donation-form">
 
-            <div class="col-md-4">
-                <h4>Quick Links</h4>
-                <a href="#">Home</a>
-                <a href="#">About Us</a>
-                <a href="#">Services</a>
-                <a href="#">Media</a>
-                <a href="#">Contact Us</a>
-            </div>
+            <h3>Food Donation</h3>
+            <p>Provide a nutritious meal to those in need.</p>
+            <label>Amount (PKR)</label>
+            <input type="number" placeholder="Enter amount">
+            <button type="button">DONATE NOW</button>
 
-            <div class="col-md-4">
-                <h4>Contact Us</h4>
-                <p><i class="fas fa-phone"></i> +92 21 111 729 526</p>
-                <p><i class="far fa-envelope"></i> info@saylaniwelfare.com</p>
-                <p><i class="fas fa-map-marker-alt"></i> Karachi, Pakistan</p>
-            </div>
+        </form>
 
+        <form class="donation-form">
+
+            <h3>Sadqa</h3>
+            <p>Donate your Sadqa to help those who are struggling.</p>
+            <label>Amount (PKR)</label>
+            <input type="number" placeholder="Enter amount">
+            <button type="button">DONATE NOW</button>
+
+        </form>
+
+        <form class="donation-form">
+
+            <h3>Zakat</h3>
+            <p>Donate your Zakat to deserving people.</p>
+            <label>Amount (PKR)</label>
+            <input type="number" placeholder="Enter amount">
+            <button type="button">DONATE NOW</button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<!-- NEWSLETTER -->
+<section class="newsletter">
+
+    <h2>Subscribe Our Newsletter</h2>
+
+    <p>Get the latest news and updates from Saylani Welfare.</p>
+
+    <form id="newsletterForm">
+
+        <input type="email" id="email" placeholder="Type your email" required>
+
+        <button type="submit">Subscribe</button>
+
+    </form>
+
+    <p id="message"></p>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer class="footer" id="footer">
+
+    <div class="footer-logo">
+
+        <img src="https://saylaniwelfare.com/static/saylani_full_logo.png" alt="Saylani Logo">
+
+        <p>
+            Saylani Welfare International Trust is dedicated
+            to uplifting the impoverished through food,
+            health and education.
+        </p>
+
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-x-twitter"></i></a>
         </div>
 
-        <hr>
-        <p class="copyright">Copyright © Saylani Welfare International Trust</p>
     </div>
+
+
+    <div class="footer-column">
+
+        <h3>Pages</h3>
+
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#media">Media</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#">Bank Details</a>
+
+    </div>
+
+
+    <div class="footer-column">
+
+        <h3>Donation Categories</h3>
+
+        <a href="#donate">Sadqa e Jariah</a>
+        <a href="#donate">Sadqa / Aqiqah Animal</a>
+        <a href="#donate">Food Donation</a>
+        <a href="#donate">Education</a>
+        <a href="#donate">Medical & Healthcare</a>
+
+    </div>
+
+
+    <div class="footer-column" id="contact">
+
+        <h3>Contact Us</h3>
+
+        <p>A-25, Bahadurabad Chowrangi Karachi, Pakistan</p>
+
+        <a href="mailto:info@saylaniwelfare.com">info@saylaniwelfare.com</a>
+
+        <a href="tel:+9221111729526">+92 21 111 729 526</a>
+
+        <a href="tel:03111729526">0311 1729526</a>
+
+    </div>
+
 </footer>
 
 
-<!-- Bootstrap JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<div class="copyright">
+    Copyright © 2026 Saylani Welfare International Trust.
+    All Rights Reserved.
+</div>
 
-<!-- Custom JavaScript -->
+
+<!-- FIXED DONATION BAR -->
+<div class="bottom-bar">
+
+    <a href="#donate">Food Donation</a>
+
+    <a href="#donate">Sadaqah</a>
+
+    <a href="#donate">Zakat</a>
+
+</div>
+
+
 <script src="script.js"></script>
 
 </body>
